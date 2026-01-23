@@ -1,0 +1,30 @@
+.container{
+    background: #fff;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 0;
+  width:60%;
+  height: 520px;
+  border-radius: 30px;
+   animation: fadeIn 1s ease-in-out;
+  
+  h2{
+    color:navy;
+    padding: 20px;
+  }
+  p{
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+     color: brown;
+
+  }
+}
+.contact-card{
+  background: #fff;
+    animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

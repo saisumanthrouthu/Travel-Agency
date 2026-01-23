@@ -1,0 +1,42 @@
+form label{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+     background-image: url("../asserts/ChatGPT\ Image\ Dec\ 10\,\ 2025\,\ 07_28_21\ PM.png");
+     background-size:cover;
+     height: 100vh;
+     
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+    form button{
+        background-color: navy;
+        color: white;
+        margin-left: 270px;
+        border-radius: 20px;
+    }
+    form button:hover{
+        background-color: bisque;
+        color: black;
+    }
+
+}form{
+    padding: 30px;
+}
+form input,textarea{
+    padding-left: 20px;
+    
+}
+.container{
+  animation: fadeIn 1s ease-in-out;
+  
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

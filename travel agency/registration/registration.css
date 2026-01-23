@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+main{
+     background-image: url("../asserts/ChatGPT\ Image\ Dec\ 10\,\ 2025\,\ 07_28_21\ PM.png");
+     background-size:cover;
+     height: 100%;
+     
+}
+h1{
+    color:navy;
+}
+form{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2),
+                  -2px -2px 5px rgba(255, 255, 255, 0.5);
+                  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  
+}
+form label{
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    color:rgb(124, 3, 5);
+}
+form input{
+    width: 80%;
+    border-radius: 20px;
+    padding: 6px;
+    margin-top: 10px;
+    /* background: transparent; */
+    border: solid;
+}
+form input[type="radio"]{
+    width: 30px;
+}
+form input[type="file"]{
+  background-color: white;
+}
+form textarea{
+    width: 80%;
+    height: 130px;
+    /* background: transparent; */
+    /* padding: ; */
+    border-radius: 20px;
+    border: solid ;
+}
+form button{
+    width: 60%;
+    padding: 6px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.container{
+  /* padding-top: 20px; */
+  animation: fadeIn 1s ease-in-out;
+  
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Page Setup ===== */
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  height: 100vh;
+} */
+
+/* ===== Main Section Styling ===== */
+/* main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+} */
+
+/* section {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 18px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 850px;
+  animation: pop 0.4s ease-in-out;
+} */
+
+/* @keyframes pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+} */
+
+/* ===== Heading ===== */
+/* h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+  letter-spacing: 1px;
+} */
+
+/* ===== Form Inputs ===== */
+/* form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+} */
+
+/* form input,
+form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  background: #fafafa;
+} */
+
+/* form input:focus,
+form textarea:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 10px rgba(106, 17, 203, 0.3);
+  background: #fff;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+} */
+
+/* ===== Radio Buttons ===== */
+/* aside input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+} */
+/* 
+aside label {
+  margin-bottom: 8px;
+} */
+
+/* ===== Submit Button ===== */
+/* button {
+  background: #6a11cb;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+} */
+
+/* button:hover {
+  background: #2575fc;
+  transform: scale(1.05);
+} */
+
+/* ===== Mobile Responsive ===== */
+/* @media (max-width: 768px) {
+  section {
+    padding: 25px 20px;
+  }
+
+  button {
+    width: 100%;
+  }
+} */

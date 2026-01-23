@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./registration.css" />
+    <link rel="stylesheet" href="../navbar/navbar.css">
+   </head>
+  <body>
+    <main>
+      <section
+        class="container vh-100 justify-content-center align-content-center"
+      >
+      <h1>Registration Form</h1>
+        <form class="row py-4">
+          <aside class="col-12 col-md-6">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" name="name" required/>
+          </aside>
+
+          <aside class="col-12 col-md-6">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter Your Email" name="email" required/>
+          </aside>
+          <aside class="col-12 col-md-6">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter the password"
+            required/>
+          </aside>
+          <aside class="col-12 col-md-6">
+            <label for="contact">Contact</label>
+            <input type="tel" placeholder="Enter Your Contact" name="contact" required />
+          </aside>
+
+          <aside class="col-12 col-md-6">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="male" />Male
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="female"
+           />Female
+            <input type="radio" name="gender" id="gender" value="other" />Other
+          </aside>
+
+          <aside class="col-12 col-md-6">
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="dob" required/>
+          </aside>
+
+          <aside class="col-12">
+            <label for="address">Address</label>
+            <textarea name="address" id="address" required></textarea>
+          </aside>
+
+          <aside class="col-12 text-center">
+            <button style="background-color: navy; color: white;">Submit</button>
+          </aside>
+        </form>
+      </section>
+    </main>
+    <script src="../bootstrap/bootstrap.js"></script>
+    <script src="register.js"></script>
+    <script src="../navbar/navbar.js"></script>
+  </body>
+</html>
